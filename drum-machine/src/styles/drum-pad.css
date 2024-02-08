@@ -1,0 +1,15 @@
+.drum-pad {
+  background: #ada99649; /*--- fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAEAEA49, #DBDBDB49, #F2F2F249, #ADA99649); /*--- Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAEAEA49, #DBDBDB49, #F2F2F249, #ADA99649); /*--- W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-shadow: 1px 1px 1px #0000009d;
+  box-shadow: 3px 3px 2px 0 #0000009d;
+  transition: transform 0.1s, background-color 0.1s; /*--- Smooth transition for transform and color change */
+}
+
+.drum-pad:active,
+.drum-pad.pad-pressed {
+  transform: scale(0.95); /*--- Slightly reduce the scale when button pressed */
+  background-color: #cccccc49; /*--- Change color on press */
+  box-shadow: 1px 1px 1px 0 #0000009d; /*--- Adjust shadow for pressed effect */
+}

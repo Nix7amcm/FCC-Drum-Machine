@@ -1,0 +1,7 @@
+#display {
+  width: 9.375rem;
+  min-height: 3.125rem;
+  text-shadow: 1px 1px 1px #0000009d;
+  box-shadow: 3px 3px 2px 0 #0000009d;
+  background-color: #f9f9f949;
+}

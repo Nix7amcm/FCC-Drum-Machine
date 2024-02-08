@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+footer {
+  font-size: .75rem;
+}
+
+footer .credit {
+  font-size: .625rem;
+}
+
+#footer-link,
+footer .credit a {
+  color: #14ff99;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#footer-link:is(:hover, :focus-visible),
+footer .credit a:is(:hover, :focus-visible){
+  color: #3CD5F3;
+  filter: brightness(90%);
+  text-decoration: #14ff99 underline;
+  text-decoration-thickness: 0.17rem;
+  text-underline-offset: 0.1rem;
+}
+
+#footer-link:is(:focus-visible),
+footer .credit a:is(:focus-visible) {
+  outline: 1px solid #fff;
+  border-radius: .3125rem;
+}
+
+#footer-link:is(:active),
+footer .credit a:is(:active) {
+  filter: brightness(110%);
+}
