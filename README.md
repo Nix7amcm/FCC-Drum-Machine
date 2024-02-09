@@ -1,4 +1,4 @@
-# Markdown Previewer
+# Drum Machine
 
 This is the 'Build a Drum Machine' project for the freeCodeCamp Front End Libraries Certification. I built this using React, Redux and Bootstrap.
 
@@ -8,15 +8,15 @@ This is the 'Build a Drum Machine' project for the freeCodeCamp Front End Librar
 
 #### <u>Desktop</u>
 ![Drum Machine desktop screenshot](/solution-images/desktop.png)
-
+
 
 #### <u>Tablet</u>
 ![Drum Machine tablet screenshot](/solution-images/tablet.png)
-
+
 
 #### <u>Mobile</u>
 ![Drum Machine mobile screenshot](/solution-images/mobile.png)
-
+
 
 * * *
 
